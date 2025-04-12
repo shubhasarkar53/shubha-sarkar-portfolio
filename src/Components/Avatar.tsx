@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
-
+import avatar from "../assets/images/croppedavatar.jpg"
 const messages = [
     "I turn bold <span class='text-purple-600 font-semibold'>ideas</span> into real products with code.",
     "I build <span class='text-green-600 font-semibold'>full-stack apps</span> that are fast and scalable.",
@@ -29,7 +29,7 @@ export default function Avatar() {
         transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
       >
         <img
-          src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&h=400&fit=crop"
+          src={avatar}
           alt="Profile"
           className="w-full h-full object-cover"
         />
