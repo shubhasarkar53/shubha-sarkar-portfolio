@@ -24,8 +24,7 @@ function About() {
             boundaries. 
           </p>
           <p className="text-lg text-gray-200  leading-relaxed">
-            I'm thinking of start blogging, so that I can share my learnings and ideas, aiming
-            to inspire and connect with fellow tech enthusiasts. Currently, I’m
+            Currently, I’m
             on the <span className="underline font-semibold  text-white">lookout for exciting and rewarding opportunities</span> where I can
             apply my skills, contribute to meaningful projects, and continue to
             grow as a developer in today’s dynamic tech ecosystem.

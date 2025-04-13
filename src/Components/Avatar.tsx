@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import avatar from "../assets/images/croppedavatar.jpg"
 const messages = [
     "I turn bold <span class='text-purple-600 font-semibold'>ideas</span> into real products with code.",
-    "I build <span class='text-green-600 font-semibold'>full-stack apps</span> that are fast and scalable.",
-    "I love turning <span class='text-blue-600 font-semibold'>challenges</span> into intuitive UI & code.",
+    "I build <span class='text-purple-600 font-semibold'>full-stack apps</span> that are fast and scalable.",
+    "I love turning <span class='text-purple-600 font-semibold'>challenges</span> into intuitive UI & code.",
   ];
   
 
