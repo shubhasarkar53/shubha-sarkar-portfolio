@@ -5,6 +5,9 @@ const fadeIn = {
   transition: { duration: 0.6 },
 };
 function Exp() {
+
+  const compnayLink = "https://learnyard.com/"
+
   return (
     <>
       <motion.section
@@ -20,26 +23,17 @@ function Exp() {
               whileHover={{ scale: 1.02 }}
             >
               <h3 className="text-xl font-semibold">
-                Senior Software Developer
+                Graphic Designer Intern
               </h3>
-              <p className="text-purple-300">Tech Corp • 2020 - Present</p>
+              <a 
+               href={compnayLink}
+               target="_blank"
+              rel="noopener noreferrer" className="text-purple-300 underline cursor-pointer">LearnYard Technologies FZ-LLC • 2024 - Present</a>
               <p className="mt-4">
-                Led development of multiple high-impact projects using React and
-                Node.js. Mentored junior developers and implemented best
-                practices.
+              Designed interactive <span className="underline font-semibold">animations</span> and <span className="underline font-semibold">diagrams</span> to simplify <span className="underline font-semibold">DSA concepts</span>, enhancing student understanding by 50%. Created minimalistic and visually appealing designs to ensure clarity and engagement. Improved content accessibility through innovative and intuitive visual elements
               </p>
             </motion.div>
-            <motion.div
-              className="bg-white/5 rounded-lg p-6"
-              whileHover={{ scale: 1.02 }}
-            >
-              <h3 className="text-xl font-semibold">Software Developer</h3>
-              <p className="text-purple-300">Innovation Labs • 2018 - 2020</p>
-              <p className="mt-4">
-                Developed and maintained multiple web applications. Collaborated
-                with cross-functional teams to deliver high-quality solutions.
-              </p>
-            </motion.div>
+           
           </div>
         </div>
       </motion.section>

@@ -6,16 +6,25 @@ const fadeIn = {
 };
 
 const skills = [
+  "Problem Solving",
   "React",
+  "Redux",
+  "Recoil",
+  "JavaScript",
   "TypeScript",
+  "C#",
+  "OOPS",
   "Node.js",
-  "Next.js",
-  "GraphQL",
-  "Tailwind CSS",
   "MongoDB",
   "PostgreSQL",
-  "Docker",
-  "AWS",
+  "Prisma",
+  "MVC",
+  "Rest API",
+  "CSS",
+  "Tailwind CSS",
+  "Bootstrap",
+  "Git & Github",
+  "Authentication"
 ];
 
 function Skills() {
@@ -23,7 +32,7 @@ function Skills() {
     <>
       <motion.section
         id="skills"
-        className="border flex items-center my-6"
+        className="flex items-center my-6"
         {...fadeIn}
       >
         <div className="w-full max-w-4xl mx-auto">
