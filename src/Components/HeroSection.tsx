@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter, X } from "lucide-react";
 import Avatar from "./Avatar";
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -8,6 +8,13 @@ const fadeIn = {
 };
 
 function HeroSection() {
+
+
+  const githubLink = "https://github.com/shubhasarkar53";
+  const linkedInLink = "https://www.linkedin.com/in/shubha-sarkar-862588213";
+  const XLink = "https://x.com/mesarkar01";
+  const emailAddress = "sarkarshubha123@gmail.com";
+
   return (
     // className="container max-w-3xl  mx-auto px-4 py-20 border-2
     <>
@@ -18,27 +25,11 @@ function HeroSection() {
         {...fadeIn}
       >
         <div className="text-center">
-          {/* <motion.div
-            className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden"
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
-          >
-            <img
-              src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&h=400&fit=crop"
-              alt="Profile"
-              className="w-full h-full object-cover"
-            />
-          </motion.div> */}
-
-          {/* ------------------ */}
+          
           <Avatar></Avatar>
         
-
-          {/* ------------------ */}
-
           <motion.h1
-            className="text-5xl md:text-7xl font-bold mb-2"
+            className="text-5xl md:text-7xl md:mt-0 mt-[5.5rem] font-bold mb-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
@@ -62,7 +53,7 @@ function HeroSection() {
             transition={{ delay: 0.6 }}
           >
             <motion.a
-              href="https://github.com"
+              href={githubLink}
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2 }}
@@ -72,7 +63,7 @@ function HeroSection() {
               <Github className="w-6 h-6" />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href={linkedInLink}
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2 }}
@@ -82,7 +73,17 @@ function HeroSection() {
               <Linkedin className="w-6 h-6" />
             </motion.a>
             <motion.a
-              href="mailto:contact@example.com"
+              href={XLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              className="hover:text-purple-300"
+            >
+              <Twitter className="w-6 h-6" />
+            </motion.a>
+            <motion.a
+              href={`mailto:${emailAddress}`}
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
               className="hover:text-purple-300"
