@@ -111,7 +111,7 @@ function App() {
       <HeroSection></HeroSection>
 
       {/* Main Content */}
-      <div className="container max-w-3xl  mx-auto px-4 py-20 border-2 ">
+      <div className="container max-w-3xl  mx-auto px-4 py-20  ">
         {/* About Section */}
         <About></About>
 

@@ -29,8 +29,8 @@ function Exp() {
                href={compnayLink}
                target="_blank"
               rel="noopener noreferrer" className="text-purple-300 underline cursor-pointer">LearnYard Technologies FZ-LLC • 2024 - Present</a>
-              <p className="mt-4">
-              Designed interactive <span className="underline font-semibold">animations</span> and <span className="underline font-semibold">diagrams</span> to simplify <span className="underline font-semibold">DSA concepts</span>, enhancing student understanding by 50%. Created minimalistic and visually appealing designs to ensure clarity and engagement. Improved content accessibility through innovative and intuitive visual elements
+              <p className="mt-4 text-gray-200">
+              Designed interactive <span className="underline font-semibold text-white">animations</span> and <span className="underline font-semibold text-white">diagrams</span> to simplify <span className="underline font-semibold text-white">DSA concepts</span>, enhancing student understanding by 50%. Created minimalistic and visually appealing designs to ensure clarity and engagement. Improved content accessibility through innovative and intuitive visual elements
               </p>
             </motion.div>
            

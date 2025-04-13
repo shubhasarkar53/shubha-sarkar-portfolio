@@ -36,7 +36,7 @@ export default function Avatar() {
       </motion.div>
 
       {/* Animated Speech Bubble */}
-      {/* <div className="absolute top-8 -right-[21rem] max-w-xs"> */}
+   
       <div className="absolute  md:top-8 md:-right-[16rem] md:max-w-xs top-36 -right-14  w-56">
         <AnimatePresence mode="wait">
           <motion.div
